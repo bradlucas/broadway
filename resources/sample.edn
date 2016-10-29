@@ -1,0 +1,37 @@
+;; ----------------------------------------------------------------------------------------------------
+;; Sample configuration file
+;; Rename this file config.edn 
+;; Then fill in your entry information
+;;
+;;
+;; You can have as many entries as you want. Here you need to differentiate them with the :uniquekey value. Make up a key for each entry.
+;;
+;;
+;; The :name value can be what ever you want as well. Use something suitable for display purposes like your full name.
+;;
+;; The key values that follow need to match what you entered when you entered the lottery. These are :first-name, :last-name, :email, :mth, :day and :year
+;; ----------------------------------------------------------------------------------------------------
+
+
+
+{
+ :uniquekey1
+
+     {:name "<enter a name to display>"
+
+                  ;; These values need to match what you used to enter the lottery
+                  :first-name "<first name>"
+                  :last-name "<last name>"
+                  :email "<email>"
+                  :mth month
+                  :day day
+                  :year year
+      }
+
+ ;; additional entries
+ ;; :uniquekey2 ...
+
+
+}
+
+
