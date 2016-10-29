@@ -1,5 +1,5 @@
-(defproject broadway "1.0.0"
-  :description ""
+(defproject com.bradlucas/broadway "1.0.0"
+  :description "Broadway lottery results"
   :url "http://example.com/FIXME"
   :license {:name "MIT"
             :url "http://opensource.org/licenses/MIT"}
@@ -12,9 +12,7 @@
                  [enlive "1.1.6"]
 
                  [ring/ring-jetty-adapter "1.5.0-RC1"]
-                 [ring/ring-defaults "0.2.0"]
-                 ]
-
+                 [ring/ring-defaults "0.2.0"]]
   :plugins [[lein-ring "0.9.7"]]
   :profiles {:dev {:dependencies [[javax.servlet/servlet-api "2.5"]
                                   [ring/ring-mock "0.3.0"]]}
