@@ -1,4 +1,4 @@
-(defproject broadway "1.0.0"
+(defproject com.bradlucas/broadway "1.0.0"
   :description "Broadway lottery results"
   :url "http://example.com/FIXME"
   :license {:name "MIT"
