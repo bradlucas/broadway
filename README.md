@@ -14,7 +14,12 @@ Broadway lottery results
 
 - Browse to http://localhost:5000
 
+## Version
 
+### 1.0.0
+
+- Initial release
+    
 ## License
 
 Copyright © 2016 Brad Lucas
