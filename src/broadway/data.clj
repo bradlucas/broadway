@@ -5,7 +5,7 @@
 
 
 ;; Url to lottery status page
-(def ^:dynamic *url* "https://lottery.broadwaydirect.com/check-status/#lottery-results")
+(def ^:dynamic *url* "https://lottery.broadwaydirect.com/check-status")
 
 (defn- get-latest-dlslot-nonce 
   "Call the page with the form and extract the current hidden code needed for a valid post
