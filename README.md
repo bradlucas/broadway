@@ -1,5 +1,7 @@
 # broadway
 
+[![Clojars Project](https://img.shields.io/clojars/v/com.bradlucas/broadway.svg)](https://clojars.org/com.bradlucas/broadway)
+
 Broadway lottery results
 
 ## Configuration
